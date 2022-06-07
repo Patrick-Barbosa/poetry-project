@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f2f2f2;
+}
+
+strong {
+    color: #ffa500;
+}
+
+body {
+    background-color: #B87333;
+}
+
+a {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding-top: 15.5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffa500;
+    transition: 0.8s;
+}
+
+
+#header {
+    display: block;
+    height: 350px;
+    width: 100%;
+    background-image: url(../img/Drumond.jpg);
+    background-position: left;
+}
+
+#titlePage {
+    height: 150px;
+    width: 100%;
+    padding-top: 90px;
+    padding-left: 20px;
+    font-size: 75px;
+    font-family: 'Work Sans Condensed', sans-serif;
+}
+
+#section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#lineseparation {
+    display: block;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 60px;
+    border: none;
+    background-color: #ffa500;
+}
+
+#titlePoem {
+    height: 150px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 75px;
+    font-family: 'Work Sans Condensed', sans-serif;
+}
+
+#poema {
+    width: 100%;
+    height: auto;
+    margin: 75px auto; 
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#author {
+    width: 100%;
+    color:  #ffa500;
+    font-size: 28px;
+    padding-left: 55%;
+    display: flex;
+}
+
+#nav {
+    width: 100%;
+    height: 150px;
+}
+
+#backButton {
+    text-align: center;
+    color: #f2f2f2;
+    display: block;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+    padding-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+}
+
+#backButton:hover {
+    background-color: #ffa500;
+    transition: 0.8s;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #ffa500;
+}
+
+#contact {
+    width: 100%;
+    padding-left: 28px;
+    font-size: 80px;
+    color: #f7f7fd;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#lineFooter {
+    display: block;
+    width: 100%;
+    height: 8px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #f3d3b7;
+}
+
+.contactIcon {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 16.7%;
+    margin-bottom: 30px;
+}
+
+.contactImageReset {
+    display: inline;
+}
+
+.contactImageReset:hover {
+    background-color: #ffa500;
+    transition: 0s;
+}
+
+#copyright {
+    display: block;
+    height: 36px;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #B87333;
+}
