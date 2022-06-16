@@ -33,7 +33,7 @@ strong {
     height: 350px;
     width: 100%;
     background-image: url(../img/Drumond.jpg);
-    background-position: left;
+    background-position: center;
 }
 
 #section {
@@ -56,7 +56,7 @@ strong {
 #titlePage {
     height: 150px;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 20px;
     font-size: 75px;
     font-family: 'Work Sans Condensed', sans-serif;
