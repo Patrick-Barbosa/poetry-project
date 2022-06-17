@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+strong{
+    color: white;
+}
+
+#header { 
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #f7d547;
+}
+
+
+#titlepage {
+    text-align: center;
+    max-width: 100%;
+    font-size: 75px;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+
+#bgcsec{
+    display: block;
+    height: 5em;
+    width: 100%;
+    background-color: #000000;
+
+}
+
+#voltar{ text-align: center;
+    max-width: 100%;
+    font-size: 55px;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+#nav { 
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+#divcontainer{
+    color: white;
+    padding-top: 1.5em;
+    
+}
+
+#author{
+    color:#f7d547;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 10 px;
+    padding-top: 1.5em;
+}
+
+.flex-conteiner{
+    display: flex;
+    width: 90%;
+    height: auto;
+    border: 10px solid #f7d547;
+    flex-direction: column;
+    margin-left: 5%;    
+}
+
+
+.item{
+    
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    line-height: auto;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #f7d547;
+    transition: 0.8s;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #f7d547;
+}
+
+#contact {
+    width: 100%;
+    padding-left: 28px;
+    font-size: 80px;
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.contactIcon {
+
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+
+}
+
+.contactImageReset {
+    display: inline;
+}
+
+.contactImageReset:hover {
+    background-color: #f7d547;
+    transition: 0s;
+}
+
+#copyright {
+    display: block;
+    height: 36px;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: #f7d547;
+    background-color: #000000;
+}
